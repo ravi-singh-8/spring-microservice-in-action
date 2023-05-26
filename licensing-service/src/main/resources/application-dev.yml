@@ -1,0 +1,18 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+logging:
+  level:
+    org:
+      spring:
+        framework:
+          web: DEBUG
+
+licensing:
+  sku:
+    plan1: "DPX01"
+    plan2: "DPX02"
+    plan3: "DPX01"

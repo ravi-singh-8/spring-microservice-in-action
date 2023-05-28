@@ -14,7 +14,6 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 
 import java.net.URI;
 import java.time.LocalDateTime;
-import java.util.List;
 
 @RestControllerAdvice
 public class AppWideExceptionHandler extends ResponseEntityExceptionHandler {

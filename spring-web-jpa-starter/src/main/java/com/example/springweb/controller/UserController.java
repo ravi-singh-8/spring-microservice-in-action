@@ -4,7 +4,6 @@ import com.example.springweb.entities.Post;
 import com.example.springweb.entities.User;
 import com.example.springweb.services.PostService;
 import com.example.springweb.services.UserService;
-import jakarta.validation.Valid;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import org.springframework.http.HttpStatus;

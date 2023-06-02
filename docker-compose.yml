@@ -1,0 +1,17 @@
+services:
+  spring-web-jpa-starter:
+    build:
+      context: spring-web-jpa-starter
+      dockerfile: Dockerfile
+    container_name: spring-web-jpa-starter
+    image: spring-web-jpa-starter:0.0.1
+    networks:
+      spring-cloud-network: null
+    ports:
+    - mode: ingress
+      target: 8080
+      published: "8001"
+      protocol: tcp
+networks:
+  spring-cloud-network:
+    name: spring-microservice-in-action_spring-cloud-network
